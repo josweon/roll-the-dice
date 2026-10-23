@@ -27,8 +27,12 @@ public class Main {
                 case 6 -> sixCounter ++;
                 case 7 -> sevenCounter ++;
             }
-
         }
 
+        System.out.printf("%n---Counter---%n");
+        System.out.printf("Counter{2}: %d%n", twoCounter);
+        System.out.printf("Counter{4}: %d%n", fourCounter);
+        System.out.printf("Counter{6}: %d%n", sixCounter);
+        System.out.printf("Counter{7}: %d%n", sevenCounter);
     }
 }
